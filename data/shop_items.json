@@ -1,0 +1,14 @@
+[
+    {
+        "title": "+Damage - $2500",
+        "sprite": "turret",
+        "price": 2500,
+        "upgrade": "player.damage += 10"
+    },
+    {
+        "title": "+Health - $2500",
+        "sprite": "health",
+        "price": 2500,
+        "upgrade": "player.health_default += 25"
+    }
+]

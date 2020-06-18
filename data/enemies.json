@@ -1,0 +1,72 @@
+{
+    "s1": {
+        "enemy_health": 75,
+        "enemy_damage": 20,
+        "width": 150,
+        "height": 94,
+        "sprite": "enemy_s1_s",
+        "boss": false,
+        "value": 100,
+        "v": 7,
+        "animation_clock": 20,
+        "shoot_countdown": -1,
+        "h_v_mod": null,
+        "h_limit": 0
+    },
+    "s2": {
+        "enemy_health": 50,
+        "enemy_damage": 15,
+        "width": 120,
+        "height": 66,
+        "sprite": "enemy_s2_s",
+        "boss": false,
+        "value": 50,
+        "v": 15,
+        "animation_clock": 20,
+        "shoot_countdown": -1,
+        "h_v_mod": 2,
+        "h_limit": 180
+    },
+    "s3": {
+        "enemy_health": 50,
+        "enemy_damage": 25,
+        "width": 130,
+        "height": 121,
+        "sprite": "enemy_s3_s",
+        "boss": false,
+        "value": 75,
+        "v": 12,
+        "animation_clock": 20,
+        "shoot_countdown": -1,
+        "h_v_mod": 5,
+        "h_limit": 180
+    },
+    "s4": {
+        "enemy_health": 100,
+        "enemy_damage": 30,
+        "width": 130,
+        "height": 121,
+        "sprite": "enemy_s4_s",
+        "boss": false,
+        "value": 125,
+        "v": 9,
+        "animation_clock": 20,
+        "shoot_countdown": 75,
+        "h_v_mod": null,
+        "h_limit": 0
+    },
+    "b1": {
+        "enemy_health": 3000,
+        "enemy_damage": 25,
+        "width": 578,
+        "height": 353,
+        "sprite": "enemy_b1_s",
+        "boss": true,
+        "value": 1000,
+        "v": 2,
+        "animation_clock": 30,
+        "shoot_countdown": 20,
+        "h_v_mod": null,
+        "h_limit": 0
+    }
+}

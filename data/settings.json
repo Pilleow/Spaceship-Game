@@ -1,0 +1,12 @@
+{
+    "sfx_volume": 0.3999999999999999,
+    "music_volume": 0.44000000000000006,
+    "key_binds": {
+        "up": "pygame.K_w",
+        "left": "pygame.K_a",
+        "down": "pygame.K_s",
+        "right": "pygame.K_d",
+        "shoot": "pygame.K_SPACE",
+        "pause": "pygame.K_ESCAPE"
+    }
+}

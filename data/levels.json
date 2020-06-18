@@ -1,0 +1,158 @@
+{
+    "1": {
+        "type": "wave",
+        "enemies": ["s2", "s2", "s2", "s2", "s2", "s2", "s2", "s2", "s2", "s2"],
+        "boss_exists": false,
+        "player_health_refill": false,
+        "fleet_health_refill": false,
+        "part": 1
+    },
+    "2": {
+        "type": "wave",
+        "enemies": ["s2", "s1", "s2", "s1", "s2", "s1", "s2", "s1", "s2", "s1"],
+        "boss_exists": false,
+        "player_health_refill": false,
+        "fleet_health_refill": false,
+        "part": 1
+    },
+    "3": {
+        "type": "wave",
+        "enemies": ["s1", "s1", "s2", "s2", "s1", "s1", "s2", "s2", "s1", "s1"],
+        "boss_exists": false,
+        "player_health_refill": false,
+        "fleet_health_refill": false,
+        "part": 1
+    },
+    "4": {
+        "type": "wave",
+        "enemies": ["s1", "s1", "s2", "s2", "s1", "s2", "s1", "s2", "s1", "s1", "b1"],
+        "boss_exists": false,
+        "player_health_refill": false,
+        "fleet_health_refill": false,
+        "part": 1
+    },
+    "5": {
+        "type": "shop",
+        "boss_exists": false,
+        "player_health_refill": true,
+        "fleet_health_refill": true,
+        "part": 1
+    },
+    "6": {
+        "type": "wave",
+        "enemies": ["s1", "s1", "s2", "s1", "s1", "s2", "s1", "s1", "s2", "s1", "s1", "s2"],
+        "boss_exists": false,
+        "player_health_refill": false,
+        "fleet_health_refill": false,
+        "part": 1
+    },
+    "7": {
+        "type": "wave",
+        "enemies": ["s2", "s2", "s1", "s2", "s2", "s1", "s2", "s2", "s1", "s2", "s2", "s1"],
+        "boss_exists": false,
+        "player_health_refill": false,
+        "fleet_health_refill": false,
+        "part": 1
+    },
+    "8": {
+        "type": "wave",
+        "enemies": ["s1", "s1", "s2", "s2", "s1", "s1", "s2", "s2", "s1", "s1", "s2", "s2"],
+        "boss_exists": false,
+        "player_health_refill": false,
+        "fleet_health_refill": false,
+        "part": 1
+    },
+    "9": {
+        "type": "wave",
+        "enemies": ["s1", "s2", "s1", "s2", "s1", "s2", "s1", "s2", "s1", "s2", "b1"],
+        "boss_exists": true,
+        "player_health_refill": false,
+        "fleet_health_refill": false,
+        "part": 1
+    },
+    "10": {
+        "type": "shop",
+        "boss_exists": false,
+        "player_health_refill": true,
+        "fleet_health_refill": true,
+        "part": 1
+    },
+    "11": {
+        "type": "wave",
+        "enemies": ["s4", "s4", "s4", "s4", "s4", "s4", "s4", "s4", "s4", "s4"],
+        "boss_exists": false,
+        "player_health_refill": false,
+        "fleet_health_refill": false,
+        "part": 2
+    },
+    "12": {
+        "type": "wave",
+        "enemies": ["s4", "s3", "s4", "s3", "s4", "s3", "s4", "s3", "s4", "s3"],
+        "boss_exists": false,
+        "player_health_refill": false,
+        "fleet_health_refill": false,
+        "part": 2
+    },
+    "13": {
+        "type": "wave",
+        "enemies": ["s3", "s3", "s4", "s4", "s3", "s3", "s4", "s4", "s3", "s3"],
+        "boss_exists": false,
+        "player_health_refill": false,
+        "fleet_health_refill": false,
+        "part": 2
+    },
+    "14": {
+        "type": "wave",
+        "enemies": ["s3", "s3", "s3", "s3", "s3", "s3", "s3", "s3", "s3", "s3"],
+        "boss_exists": false,
+        "player_health_refill": false,
+        "fleet_health_refill": false,
+        "part": 2
+    },
+    "15": {
+        "type": "shop",
+        "boss_exists": false,
+        "player_health_refill": true,
+        "fleet_health_refill": true,
+        "part": 2
+    },
+    "16": {
+        "type": "wave",
+        "enemies": ["s3", "s3", "s4", "s3", "s3", "s4", "s3", "s3", "s4", "s3", "s3", "s4"],
+        "boss_exists": false,
+        "player_health_refill": false,
+        "fleet_health_refill": false,
+        "part": 2
+    },
+    "17": {
+        "type": "wave",
+        "enemies": ["s4", "s4", "s3", "s4", "s4", "s3", "s4", "s4", "s3", "s4", "s4", "s3"],
+        "boss_exists": false,
+        "player_health_refill": false,
+        "fleet_health_refill": false,
+        "part": 2
+    },
+    "18": {
+        "type": "wave",
+        "enemies": ["s3", "s3", "s4", "s4", "s3", "s3", "s4", "s4", "s3", "s3", "s4", "s4"],
+        "boss_exists": false,
+        "player_health_refill": false,
+        "fleet_health_refill": false,
+        "part": 2
+    },
+    "19": {
+        "type": "wave",
+        "enemies": ["s3", "s4", "s3", "s4", "s3", "s4", "s3", "s4", "s3", "s4", "b1"],
+        "boss_exists": true,
+        "player_health_refill": false,
+        "fleet_health_refill": false,
+        "part": 2
+    },
+    "20": {
+        "type": "shop",
+        "boss_exists": false,
+        "player_health_refill": true,
+        "fleet_health_refill": true,
+        "part": 2
+    }
+}
