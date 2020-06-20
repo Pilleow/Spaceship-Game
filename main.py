@@ -255,7 +255,7 @@ while run:
         game_over_timer = 180
         shoot_sfx_index = 0
         health_text_y = 15
-        current_level = 1
+        current_level = 11
         fleet_health = 100
         top_border = 0
         border = 15
@@ -515,7 +515,7 @@ while run:
                 shoot_sfx_index = 0
 
         # boss border
-        if boss_fight:
+        if boss_fight and current_level in [4,9]:
             top_border = 300
         else:
             top_border = 0
@@ -539,7 +539,7 @@ while run:
 
                 if boss:
                     boss_fight = True
-                    enemies.append(enemy(eval(sprite), enemy_health, enemy_damage, value, (resolution[0] - width)//2, -75-height, v, width, height, boss, animation_clock, shoot_countdown))
+                    enemies.append(enemy(eval(sprite), enemy_health, enemy_damage, value, (resolution[0] - width)//2, -height, v, width, height, boss, animation_clock, shoot_countdown))
                 else:
                     enemies.append(enemy(eval(sprite), enemy_health, enemy_damage, value, randint(border, resolution[0]-border-width-h_limit), 0-height, v, width, height, boss, animation_clock, shoot_countdown, h_v_mod))
 
@@ -1151,7 +1151,7 @@ while run:
                 bullets.remove(b)
 
         for e in enemies:
-            if e.boss and ( (current_level == 4 and e.health > 1500) or (current_level == 9 and e.health > 0) ) and e.y < -e.height//2:
+            if e.boss and ( (current_level == 4 and e.health > 1500) or (current_level == 9 and e.health > 0) or (current_level == 11) ) and e.y < -e.height//2:
                 e.y += e.v
                 player.y += e.v
             elif e.boss and current_level == 4 and e.health <= 1500:

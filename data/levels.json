@@ -103,7 +103,7 @@
     },
     "14": {
         "type": "wave",
-        "enemies": ["s3", "s3", "s3", "s3", "s3", "s3", "s3", "s3", "s3", "s3"],
+        "enemies": ["s3", "s3", "s3", "s3", "s3", "s3", "s3", "s3", "s3", "s3", "b2"],
         "boss_exists": false,
         "player_health_refill": false,
         "fleet_health_refill": false,
@@ -142,7 +142,7 @@
     },
     "19": {
         "type": "wave",
-        "enemies": ["s3", "s4", "s3", "s4", "s3", "s4", "s3", "s4", "s3", "s4", "b1"],
+        "enemies": ["s3", "s4", "s3", "s4", "s3", "s4", "s3", "s4", "s3", "s4", "b2"],
         "boss_exists": true,
         "player_health_refill": false,
         "fleet_health_refill": false,
