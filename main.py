@@ -70,6 +70,7 @@ enemy_s3_s = pygame.image.load("sprites/enemies/enemy_s3.png").convert_alpha()
 enemy_s4_s = pygame.image.load("sprites/enemies/enemy_s4.png").convert_alpha()
 enemy_s5_s = pygame.image.load("sprites/enemies/enemy_s5.png").convert_alpha()
 enemy_b1_s = pygame.image.load("sprites/enemies/enemy_b1.png").convert_alpha()
+enemy_b2_s = pygame.image.load("sprites/enemies/enemy_b2.png").convert_alpha()
 
 martin_s = pygame.image.load("sprites/characters/Martin.png").convert_alpha()
 
